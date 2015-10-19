@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'WarpDrive/*.swift'
 
-  s.dependency 'Interstellar', '1.2'
+  s.dependency 'Interstellar', '~> 1.2'
 
   s.requires_arc = true
 end
